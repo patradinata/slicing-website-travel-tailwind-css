@@ -9,3 +9,7 @@
 .btn-hitam {
   @apply py-3 px-8 bg-hitam text-white rounded-[10px] shadow-xl border hover:bg-white hover:shadow-none hover:border-hitam hover:text-hitam transition-all duration-300;
 }
+
+.link {
+  @apply text-orange hover:text-purple-500 font-medium tracking-wider text-base transition-all duration-300 ease-in;
+}
